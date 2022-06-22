@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="img/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="/css/main.css" />
+		<title>Frontend Mentor | Interactive rating component</title>
+	</head>
+
+	<body>
+		<main>
+			<div class="container">
+
+				<!-- Rating state start -->
+				<section class="card-rate box">
+					<div class="card-rate__wrapper"> <!-- what does this wrapper do? once this works, remove the wrapper to see if it's needed -->
+
+						<!-- Star -->
+						<figure class="card-rate__star"><img src="img/icon-star.svg" alt="Icon Star"/></figure>
+
+						<!-- Title -->
+						<h1 class="box__title">How did we do?</h1>
+
+						<!-- Description -->
+						<p class="box__para">
+							Please let us know how we did with your support
+							request. All feedback is appreciated to help us
+							improve our offering!
+						</p>
+
+						<!-- Rating -->
+						<!-- any buttons -->
+						<!-- <div class="box__error">Please choose a rating!</div> -->
+						<div class="box__rating">
+							<button  class="card__btn card__btn-rating" data-rating="1" />1</button>
+							<button  class="card__btn card__btn-rating" data-rating="2" />2</button>
+							<button  class="card__btn card__btn-rating" data-rating="3" />3</button>
+							<button  class="card__btn card__btn-rating" data-rating="4" />4</button>
+							<button  class="card__btn card__btn-rating" data-rating="5" />5</button>
+						</div>
+						<div class="box__button">
+							<button class="card__btn card__btn-submit" disabled>Submit</button>
+						</div>
+					</div>
+				</section>
+
+				<!-- Rating state ends -->
+
+				<!-- Thank you state start -->
+				<section class="box card-thanks hide hide-right">
+					<div class="card-thanks__wrapper">
+
+						<!-- Illustration -->
+						<figure class="card-thanks__illustration"><img src="img/illustration-thank-you.svg" alt="Thank you image"></figure>
+
+						<div class="box__result">
+							You selected <span class="box__result-score"></span> out of 5
+						</div>
+
+						<!-- Title -->
+						<h2 class="box__title">Thank you!</h2>
+
+						<!-- Description -->
+						<p class="box__para mb-0">
+						We appreciate you taking the time to give a rating. If
+						you ever need more support, don’t hesitate to get in
+						touch!
+						</p>
+					</div>
+				</section>
+				<!-- Thank you state end -->
+			</div>
+		</main>
+		<div class="attribution">
+			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+			Coded by <a href="https://www.ttraffik.com/" target="_blank">Arthur Paz Ruiz</a>.
+		  </div>
+		<script src="js/main.js"></script>
+	</body>
+	
+</html>

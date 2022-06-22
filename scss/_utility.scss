@@ -1,0 +1,37 @@
+
+	// Color Variables
+	$orange: hsl(25, 97%, 53%);
+	$white: hsl(0, 0%, 100%);
+	$light-grey: hsl(217, 12%, 63%);
+	$med-grey: hsl(216, 12%, 54%);
+	$dark-blue: hsl(213, 19%, 18%);
+	$very-dark-blue: hsl(216, 12%, 8%);
+	// Other Variables
+	$cur-font: "Overpass", sans-serif;
+	$desktop: 'screen and (min-width: 1440px)';
+
+// @mixins
+// @mixin font-face($font-fam, $size, $weight, $l-height) {
+// 	font-family: $font-fam;
+// 	font-size: $size;
+//     font-weight: $weight;
+//     line-height: $l-height;
+// }
+// @mixin grid-position($column, $row) {
+//     grid-column: $column;
+//     grid-row: $row;
+// }
+// @mixin color-styling($background, $color) {
+// 	background: $background;
+// 	color: $color;
+// }
+// @mixin borders($border, $border-radius) {
+// 	border: $border;
+// 	border-radius: $border-radius;
+// }
+// @mixin alignment($justify, $item-align) {
+// 	justify-content: $justify;
+// 	align-items: $item-align;
+// }
+
+
